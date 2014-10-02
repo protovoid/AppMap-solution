@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		63C29E8519DCEE5100E2E9ED /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C29E8419DCEE5100E2E9ED /* ThirdViewController.m */; };
 		63C29E8819DCF0F100E2E9ED /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C29E8719DCF0F100E2E9ED /* FourthViewController.m */; };
-		63C29E8B19DCF0FB00E2E9ED /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C29E8A19DCF0FB00E2E9ED /* FifthViewController.m */; };
 		63C29E8E19DCFB9600E2E9ED /* ThirdOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C29E8D19DCFB9600E2E9ED /* ThirdOptionsViewController.m */; };
 		63C29E9119DCFC9100E2E9ED /* TigerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C29E9019DCFC9100E2E9ED /* TigerViewController.m */; };
 		63C29E9419DCFC9900E2E9ED /* LionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C29E9319DCFC9900E2E9ED /* LionViewController.m */; };
 		63C29E9719DDF79500E2E9ED /* MoreInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C29E9619DDF79500E2E9ED /* MoreInfoViewController.m */; };
+		63C29E9919DE0ED500E2E9ED /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63C29E9819DE0ED500E2E9ED /* lion.jpg */; };
+		63C29E9B19DE0EEE00E2E9ED /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63C29E9A19DE0EEE00E2E9ED /* tiger.jpg */; };
 		71CA534219DCA6B700F1638C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA534119DCA6B700F1638C /* main.m */; };
 		71CA534519DCA6B700F1638C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA534419DCA6B700F1638C /* AppDelegate.m */; };
 		71CA534819DCA6B700F1638C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA534719DCA6B700F1638C /* FirstViewController.m */; };
@@ -39,8 +40,6 @@
 		63C29E8419DCEE5100E2E9ED /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		63C29E8619DCF0F100E2E9ED /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		63C29E8719DCF0F100E2E9ED /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		63C29E8919DCF0FB00E2E9ED /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
-		63C29E8A19DCF0FB00E2E9ED /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		63C29E8C19DCFB9600E2E9ED /* ThirdOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdOptionsViewController.h; sourceTree = "<group>"; };
 		63C29E8D19DCFB9600E2E9ED /* ThirdOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdOptionsViewController.m; sourceTree = "<group>"; };
 		63C29E8F19DCFC9100E2E9ED /* TigerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TigerViewController.h; sourceTree = "<group>"; };
@@ -49,6 +48,8 @@
 		63C29E9319DCFC9900E2E9ED /* LionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionViewController.m; sourceTree = "<group>"; };
 		63C29E9519DDF79500E2E9ED /* MoreInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreInfoViewController.h; sourceTree = "<group>"; };
 		63C29E9619DDF79500E2E9ED /* MoreInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreInfoViewController.m; sourceTree = "<group>"; };
+		63C29E9819DE0ED500E2E9ED /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
+		63C29E9A19DE0EEE00E2E9ED /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
 		71CA533C19DCA6B700F1638C /* AppMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA534019DCA6B700F1638C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71CA534119DCA6B700F1638C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,10 +123,10 @@
 				63C29E8D19DCFB9600E2E9ED /* ThirdOptionsViewController.m */,
 				63C29E8619DCF0F100E2E9ED /* FourthViewController.h */,
 				63C29E8719DCF0F100E2E9ED /* FourthViewController.m */,
-				63C29E8919DCF0FB00E2E9ED /* FifthViewController.h */,
-				63C29E8A19DCF0FB00E2E9ED /* FifthViewController.m */,
 				63C29E8319DCEE5100E2E9ED /* ThirdViewController.h */,
 				63C29E8419DCEE5100E2E9ED /* ThirdViewController.m */,
+				63C29E9819DE0ED500E2E9ED /* lion.jpg */,
+				63C29E9A19DE0EEE00E2E9ED /* tiger.jpg */,
 				71CA534F19DCA6B700F1638C /* Images.xcassets */,
 				71CA535119DCA6B700F1638C /* LaunchScreen.xib */,
 				71CA533F19DCA6B700F1638C /* Supporting Files */,
@@ -240,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71CA534E19DCA6B700F1638C /* Main.storyboard in Resources */,
+				63C29E9919DE0ED500E2E9ED /* lion.jpg in Resources */,
 				71CA535319DCA6B700F1638C /* LaunchScreen.xib in Resources */,
+				63C29E9B19DE0EEE00E2E9ED /* tiger.jpg in Resources */,
 				71CA535019DCA6B700F1638C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +271,6 @@
 				71CA534819DCA6B700F1638C /* FirstViewController.m in Sources */,
 				63C29E9119DCFC9100E2E9ED /* TigerViewController.m in Sources */,
 				63C29E8E19DCFB9600E2E9ED /* ThirdOptionsViewController.m in Sources */,
-				63C29E8B19DCF0FB00E2E9ED /* FifthViewController.m in Sources */,
 				71CA534219DCA6B700F1638C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
